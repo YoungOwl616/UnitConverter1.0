@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://media.giphy.com/media/3o6UBbF9JIiXyDdcKA/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 20px;
+    color: #F6F6D8;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 8px 12px;
+    font-size: 45px;
+    border-radius: 15px;
+    border: 3px solid #F6F6D8;
+    background-color: #7f4fee;
+    color: #F6F6D8;
+    font-weight: bold;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+#convert-btn {
+    margin-top: 20px;
+    background-color: #F6F6D8;
+    color: #7f4fee;
+    border: none;
+    font-size: 29px;
+    padding: 12px 22px;
+    border-radius: 11px;
+    font-weight: bold;
+}
+
+#convert-btn:hover {
+    background-color: #fffff0;
+    color: #582cbf;
+}
+
+#big-daddy-container-div {
+    width: 80%;
+    margin: 50px auto;
+    border: 9px solid #F6F6D8;
+    border-radius: 15px;
+    background-color: #F6F6D8;
+    padding-bottom: 45px;
+}
+
+#header-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#7f4fee;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#body-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conversion-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fffff0;
+    color: #7f4fee;
+    width: 95%;
+    height: 128.512;
+    margin: 24px;
+}
+
+.paras {
+    margin-top: 0px;
+    line-height: 34px;
+    font-size: 25px;
+}
+
+#clear-btn {
+    display: block;
+    margin: 20px auto 15px auto;
+    background-color: #7f4fee;
+    color: #F6F6D8;
+    border: none;
+    font-size: 20px;
+    padding: 12px 22px;
+    border-radius: 11px;
+    font-weight: bold;
+}
+
+#clear-btn:hover {
+    background-color: #582cbf;
+    color: #fffff0;
+}
